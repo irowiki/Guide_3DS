@@ -56,6 +56,17 @@ Ebben a fejezetben meg fogod látogatni a browser exploit weboldalt, ami elindí
 Ha még nem történt meg, biztosítsd, hogy legyen működő Internet kapcsolata a konzolodnak.
 {: .notice--info}
 
+{% capture set_date %}
+<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+1. Lépj be a "System Settings"-be a konzolodon
+1. Válaszd az "Other Settings"-t
+1. Navigate to "Date & Time" -> "Today's date"
+1. Tap Up/Down Arrows to set the correct Day, Month and Year
+1. Select OK to confirm
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. A HOME menüben nyomd meg a bal és jobb váll gombokat egyszerre, hogy megnyisd a kamerát
     + Ha nem tudod megnyitni a kamerát, nyisd meg az Internet Browser-t kézzel, és írd be az URL-t e helyett. (`https://zoogie.github.io/web/super/` az EUR/USA/JPN régiókhoz, `https://zoogie.github.io/web/korea` a KOR régióhoz)
 1. Nyomd meg a QR kód gombot és olvasd be a következő QR kódok egyikét, ami megfelel a konzol régiódnak, [itt](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
