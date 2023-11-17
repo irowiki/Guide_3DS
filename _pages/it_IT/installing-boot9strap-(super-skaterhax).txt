@@ -56,6 +56,17 @@ In questa sezione visiterai la pagina web dell'exploit del browser, che avvierà
 Se non l'hai già fatto, assicurati di avere una connessione Internet funzionante configurata sulla tua console.
 {: .notice--info}
 
+{% capture set_date %}
+<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+1. Avvia le Impostazioni di sistema sulla tua console
+1. Seleziona "Impostazioni generali"
+1. Navigate to "Date & Time" -> "Today's date"
+1. Tap Up/Down Arrows to set the correct Day, Month and Year
+1. Select OK to confirm
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. Nel menu HOME, premi contemporaneamente i pulsanti dorsali L e R per avviare la fotocamera
     + Se non riesci ad aprire la fotocamera, apri il browser Internet e digita manualmente l'URL (`https://zoogie.github.io/web/super/` per EUR/USA/JPN, `https://zoogie.github.io/web/korea` per KOR)
 1. Tocca il pulsante "codice QR" e scansiona uno dei seguenti codici QR per la regione della tua console [qui](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)
