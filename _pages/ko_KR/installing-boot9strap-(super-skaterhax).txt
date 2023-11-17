@@ -56,6 +56,17 @@ title: "boot9strap 설치 (super-skaterhax)"
 아직 안하셨다면, 콘솔을 인터넷에 연결해 주세요.
 {: .notice--info}
 
+{% capture set_date %}
+<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+1. 콘솔에서 본체 설정을 열어 주세요
+1. "기타 설정"을 선택해 주세요
+1. Navigate to "Date & Time" -> "Today's date"
+1. Tap Up/Down Arrows to set the correct Day, Month and Year
+1. Select OK to confirm
+{% endcapture %}
+<details>{{ set_date | markdownify }}</details>
+{: .notice--info}
+
 1. HOME 메뉴에서 L, R 버튼을 동시에 눌러 카메라를 열어 주세요
     + 카메라를 열 수 없다면, 인터넷 브라우저를 열어 URL을 직접 입력해주세요 (EUR/USA/JPN의 경우 `https://zoogie.github.io/web/super/`, KOR의 경우 `https://zoogie.github.io/web/korea`).
 1. QR 코드 버튼을 터치해, [여기](https://user-images.githubusercontent.com/28328903/226086338-585bfdac-0aac-44c0-b413-89206d2815d8.png)에서 콘솔의 지역에 맞는 QR 코드를 스캔해주세요
