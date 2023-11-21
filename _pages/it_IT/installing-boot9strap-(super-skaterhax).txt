@@ -57,12 +57,12 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
 {: .notice--info}
 
 {% capture set_date %}
-<summary>If your system date is incorrect, this exploit will not work.<br>Please follow the steps below to set the correct system date.</summary>
+<summary>Se la data del tuo sistema non è corretta, questo exploit non funzionerà.<br>Segui i passaggi seguenti per impostare correttamente la data di sistema.</summary>
 1. Avvia le Impostazioni di sistema sulla tua console
 1. Seleziona "Impostazioni generali"
 1. Navigate to "Date & Time" -> "Today's date"
-1. Tap Up/Down Arrows to set the correct Day, Month and Year
-1. Select OK to confirm
+1. Tocca i pulsanti su/giù per impostare il giorno, il mese e l'anno corretti
+1. Premi OK per confermare
 {% endcapture %}
 <details>{{ set_date | markdownify }}</details>
 {: .notice--info}
@@ -85,8 +85,8 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
     + Se vengono visualizzate delle richieste, approvale tutte
     + Se la tua console si blocca con una schermata gialla, tieni premuto il pulsante POWER finché non si spegne, quindi riprova questa sezione
     + Se la tua console si blocca con una schermata rossa, tieni premuto il pulsante POWER finché non si spegne, riprova il passo 3 della Sezione II, quindi riprova questa sezione
-    + If your console shows "Text" on the bottom screen, you have an Old 3DS and this exploit **will not work on your device**
-      + Return to [Get Started](get-started) and select Old 3DS/2DS as your model and reinput your system version
+    + Se la tua console mostra "Text" sullo schermo inferiore, hai un Old 3DS e questo exploit **non funzionerà sulla tua console**
+      + Ritorna a [Cominciamo!](get-started), seleziona Old 3DS/2DS come modello e reinserisci la versione del tuo sistema
     + Se ottieni un altro errore riprova altre 5 volte, e se continua a non funzionare [segui questa guida per risolvere il problema](troubleshooting#installing-boot9strap-super-skaterhax)
 1. La tua console avvierà l'Homebrew Launcher
 1. Avvia nimdsphax dalla lista degli homebrew
