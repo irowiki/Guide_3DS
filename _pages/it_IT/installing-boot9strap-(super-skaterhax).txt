@@ -60,7 +60,7 @@ Se non l'hai già fatto, assicurati di avere una connessione Internet funzionant
 <summary>Se la data del tuo sistema non è corretta, questo exploit non funzionerà.<br>Segui i passaggi seguenti per impostare correttamente la data di sistema.</summary>
 1. Avvia le Impostazioni di sistema sulla tua console
 1. Seleziona "Impostazioni generali"
-1. Navigate to "Date & Time" -> "Today's date"
+1. Entra in "Data e ora" -> "Data"
 1. Tocca i pulsanti su/giù per impostare il giorno, il mese e l'anno corretti
 1. Premi OK per confermare
 {% endcapture %}
