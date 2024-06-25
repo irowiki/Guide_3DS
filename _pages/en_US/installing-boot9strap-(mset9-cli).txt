@@ -129,7 +129,7 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
     + **macOS**: Double-click `mset9.command` and enter your password if prompted
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
 1. Type the number corresponding to your console model and version, then press Enter
-1. In the MSET9 window, type `3`, then press Enter to remove MSET9
+1. In the MSET9 window, type `3`, then press Enter, then type `2` then press Enter to remove MSET9
     + You should see "Successfully removed MSET9!"
 1. Press Enter to close the MSET9 script
 
