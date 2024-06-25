@@ -75,13 +75,13 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
 1. Type the number corresponding to your console model and version, then press Enter
     + The window should change to this and display `Ready`:
 
-    ![Image: MSET9 setup](/images/screenshots/mset9/mset9-ready-to-inject.png)
+    ![Image: MSET9 setup](/images/screenshots/mset9/mset9-ready.png)
     {: .notice--info}
 
-    + If the window says [Not Ready](/images/screenshots/mset9/mset9-not-ready-to-inject.png) type `2` to perform a sanity check and follow the directions indicated
-1. Type
-
-
+    + If the window says [Not ready - sanity check failed](/images/screenshots/mset9/mset9-not-ready.png) type `2` then press enter to perform a sanity check and follow the directions indicated, then return to Section I Step 14
+1. Type `0` then press enter to close the script
+1. Reinsert your SD card into your console
+1. Power on your console
 
 #### Section II - MSET9
 
