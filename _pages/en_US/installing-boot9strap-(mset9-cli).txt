@@ -79,7 +79,7 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
     {: .notice--info}
 
     + If the window says [Not ready - sanity check failed](/images/screenshots/mset9/mset9-not-ready.png) type `2` then press enter to perform a sanity check and follow the directions indicated, then return to Section I Step 14
-1. Type `0` then press enter to close the script
+1. Type `0` then press Enter to close the script
 1. Reinsert your SD card into your console
 1. Power on your console
 
@@ -103,7 +103,7 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
     + **macOS**: Double-click `mset9.command` and enter your password if prompted
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
 1. Type the number corresponding to your console model and version, then press Enter
-1. In the MSET9 window, type `2`, then press Enter to inject MSET9
+1. In the MSET9 window, type `3`, then press Enter to inject MSET9
     + You should see "MSET9 successfully injected!"
 1. Press Enter to close the MSET9 script
 1. Reinsert your SD card into your console **without pressing any buttons or touching the screen**
@@ -117,7 +117,7 @@ These instructions must be followed **EXACTLY**, so double-check EVERYTHING you 
 
 #### Section IV - Removing MSET9
 
-In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)
+In this section, you will remove MSET9 to prevent further issues and restore your user data (Games, Themes, etc). (This will not remove the custom firmware that you just installed.)
 
 Do NOT skip this section! If you skip it, applications may crash unexpectedly and you will encounter errors on the next page!
 {: .notice--danger}
@@ -129,11 +129,12 @@ Do NOT skip this section! If you skip it, applications may crash unexpectedly an
     + **macOS**: Double-click `mset9.command` and enter your password if prompted
     + **Linux**: open a Terminal window, `cd` to the root of your SD card, then type `python3 mset9.py` and press Enter
 1. Type the number corresponding to your console model and version, then press Enter
-    + The current state should change to Injected
-    + If you have already removed the trigger file (or never injected in the first place), the current state will show Ready, skip to Step 6
-1. Type `2`, then press Enter to remove the trigger file
+    + The current state should display [Injected](/images/screenshots/mset9/mset9-injected.png)
+    + If you have already removed the trigger file (or never injected in the first place), the current state will show [Ready](/images/screenshots/mset9/mset9-ready.png), skip to Step 6
+1. Type `4`, then press Enter to remove the trigger file
     + You should see "Removed trigger file."
-1. Type `3`, then press Enter to remove MSET9
+    + If there is not an option `4` skip to the next step
+1. Type `5`, then press Enter to remove MSET9
     + You should see "Successfully removed MSET9!"
 1. Press Enter to close the MSET9 script
 
