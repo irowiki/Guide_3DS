@@ -1,0 +1,30 @@
+
+When creating the MSET9 ID1 on Windows 10 and up, the script sometimes crashes with this error:
+
+`OSError: [WinError 234] More data is available: '[X]:\\Nintendo 3DS/################################/\uffff\ufaff餑䠇䚅敩 ꄈ∁䬅䞘䙨䙙ꫀᰗ䙃䰃䞠䞸退ࠊꁱࠅ캙ࠄsdmc退ࠊb9'`
+
+This occurs because of the in-beta UTF-8 support in Windows. Instructions to disable it are as follows:
+
+Hit **Windows Key + R** to open up the Run dialogue, type `intl.cpl` then click "OK"
+
+![Run](/images/screenshots/troubleshooting/234run.png)
+{: .notice--info}
+
+Click on `Administrative`, then `Change System Locale`
+
+![Region](/images/screenshots/troubleshooting/234region.png)
+{: .notice--info}
+![Administrative](/images/screenshots/troubleshooting/234administrative.png)
+{: .notice--info}
+
+Uncheck the box next to `Beta: Use Unicode UTF-8 for worldwide language support` then click "OK"
+
+![Locale](/images/screenshots/troubleshooting/234locale.png)
+{: .notice--info}
+
+Click "Restart Now"
+
+![Restart](/images/screenshots/troubleshooting/234restart.png)
+{: .notice--info}
+
+After your PC has rebooted, try creating the MSET9 ID1 again.
