@@ -191,17 +191,7 @@ Write-protection is enabled on this SD card. If you are using a full-size SD car
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 06: You need at least 16MB free</u></summary>
-
-Your SD card does not have enough space to trigger MSET9. Free up some space and try again.
-
-At the end of this guide, you will need at least 1.3GB to make a NAND backup, so it's best to free up at least that much.
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Error 07: You don't have 1 ID0, you have (#)!</u></summary>
+<summary><u>Error 04: You don't have 1 ID0, you have (#)!</u></summary>
 
 You have multiple ID0 folders. To determine the correct folder, follow these instructions:
 
@@ -225,7 +215,25 @@ Once you've done this, continue from [Section I Step 3](installing-boot9strap-(m
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 08: One or more files are missing or malformed!</u></summary>
+<summary><u>Error 5: You don't have 1 ID1, you have (#)!</u></summary>
+
+{% include_relative include/id1-check.txt %}
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 06: You need at least 16MB free</u></summary>
+
+Your SD card does not have enough space to trigger MSET9. Free up some space and try again.
+
+At the end of this guide, you will need at least 1.3GB to make a NAND backup, so it's best to free up at least that much.
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Error 07: One or more files are missing or malformed!</u></summary>
 
 One or more files that MSET9 needs to run is missing or corrupted. Re-download the [MSET9 Release `.zip`](https://github.com/zoogie/MSET9/releases/latest) and extract it to the root of your SD card, replacing all existing files, then try again.
 
@@ -233,9 +241,9 @@ One or more files that MSET9 needs to run is missing or corrupted. Re-download t
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 12: You don't have 1 ID1, you have (#)!</u></summary>
+<summary><u>Error 18: Winerror 234, Windows Locale Settings</u></summary>
 
-{% include_relative include/id1-check.txt %}
+{% include_relative include/winerror234.txt %}
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
