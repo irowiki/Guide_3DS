@@ -78,8 +78,8 @@ In this section, you will prepare the SD card data necessary for the MSET9 explo
     ![Image: MSET9 setup](/images/screenshots/mset9/mset9-ready.png)
     {: .notice--info}
 
-    + If the window says [Not ready - sanity check failed](/images/screenshots/mset9/mset9-not-ready.png)
-        + Type `2` then press enter to perform a sanity check and follow the directions indicated, for more information check the [troubleshooting](troubleshooting#installing-boot9strap-mset9) page
+    + If the window says [Not ready - check MSET9 status for more details](/images/screenshots/mset9/mset9-not-ready.png)
+        + Type `2` then press enter to check the MSET9 status and follow the directions indicated, for more information check the [troubleshooting](troubleshooting#installing-boot9strap-mset9) page
         + Then return to Section I Step 14
 1. Type `0` then press Enter to close the script
 1. Reinsert your SD card into your console
