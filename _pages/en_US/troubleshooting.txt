@@ -118,24 +118,9 @@ Python is not installed on the computer you are using. Download it from the [Pyt
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Sanity test: HOME menu extdata: Missing!</u></summary>
+<summary><u>HOME menu extdata: Missing!</u></summary>
 
-Please power on your console with your SD inserted, then run the sanity check again.
-
-If this does not work, your SD card needs to be formatted:
-
-1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
-1. Copy everything back
-1. Start again from [Section I Step 7](installing-boot9strap-(mset9-cli)#section-i---prep-work).
-
-{% endcapture %}
-<details>{{ compat | markdownify }}</details>
-
-{% capture compat %}
-<summary><u>Sanity test: Mii Maker extdata: Missing!</u></summary>
-
-Mii Maker data was not found on the SD card. Please power on your console with your SD inserted, then launch Mii Maker, then run the sanity check again.
+Please power on your console with your SD inserted, then check the MSET9 status again.
 
 If this does not work, your SD card needs to be formatted:
 
@@ -148,7 +133,22 @@ If this does not work, your SD card needs to be formatted:
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Sanity test: Title database: Not initialized!</u></summary>
+<summary><u>Mii Maker extdata: Missing!</u></summary>
+
+Mii Maker data was not found on the SD card. Please power on your console with your SD inserted, then launch Mii Maker, then check the MSET9 status again.
+
+If this does not work, your SD card needs to be formatted:
+
+1. Copy everything off the SD Card to your PC
+1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Copy everything back
+1. Start again from [Section I Step 7](installing-boot9strap-(mset9-cli)#section-i---prep-work).
+
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
+<summary><u>Title database: Not initialized!</u></summary>
 
 This happens when no valid title database is present, usually because you never installed any titles from eShop on this SD card. The script will create the title databases for you and this guide will have walked you through resetting them.
 
