@@ -225,7 +225,7 @@ Once you've done this, continue from [Section I Step 3](installing-boot9strap-(m
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 5: You don't have 1 ID1, you have (#)!</u></summary>
+<summary><u>Error 05: You don't have 1 ID1, you have (#)!</u></summary>
 
 {% include_relative include/id1-check.txt %}
 
@@ -251,7 +251,7 @@ One or more files that MSET9 needs to run is missing or corrupted. Re-download t
 <details>{{ compat | markdownify }}</details>
 
 {% capture compat %}
-<summary><u>Error 18: Winerror 234, Windows Locale Settings</u></summary>
+<summary><u>Error 18: Windows Locale Settings are broken!</u></summary>
 
 {% include_relative include/winerror234.txt %}
 
