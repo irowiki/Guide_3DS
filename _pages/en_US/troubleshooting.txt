@@ -125,7 +125,7 @@ Please power on your console with your SD inserted, then check the MSET9 status 
 If this does not work, your SD card needs to be formatted:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
 1. Start again from [Section I Step 7](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
@@ -140,9 +140,9 @@ Mii Maker data was not found on the SD card. Please power on your console with y
 If this does not work, your SD card needs to be formatted:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
-1. Start again from [Section I Step 7](installing-boot9strap-(mset9-cli)#section-i---prep-work).
+1. Start again from [Section I Step 8](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -150,14 +150,16 @@ If this does not work, your SD card needs to be formatted:
 {% capture compat %}
 <summary><u>Title database: Not initialized!</u></summary>
 
-Ensure you have reset the databases. Please power on your console with your SD inserted then launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` and press Reset ([image](/images/screenshots/database-reset.jpg))
+Ensure you have reset the databases. 
+    + Please power on your console with your SD inserted 
+    + Launch System Settings and navigate to `Data Management` -> `Nintendo 3DS` -> `Software` and press Reset ([image](/images/screenshots/database-reset.jpg))
     + This will not actually wipe your data
-If you get a reset prompt, after resetting, power off your 3DS and start again from [Section I Step 13](installing-boot9strap-(mset9-cli)#section-i---prep-work).
+    + If you get a reset prompt, after resetting, power off your 3DS and start again from [Section I Step 14](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 If you are not getting a reset prompt, your SD card needs to be formatted:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
 1. Run the MSET9 script:
     + **Windows**: Double-click `mset9.bat`
@@ -167,7 +169,7 @@ If you are not getting a reset prompt, your SD card needs to be formatted:
 1. Type `2` then press enter to check the MSET9 status
     + This will create the dummy databases again
 1. Close the MSET9 script window
-1. Start again from [Section I Step 11](installing-boot9strap-(mset9-cli)#section-i---prep-work).
+1. Start again from [Section I Step 12](installing-boot9strap-(mset9-cli)#section-i---prep-work).
 
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
@@ -185,7 +187,7 @@ Remember, your SD card should look like this:
 If your SD card layout is correct, then your SD card most likely isn't being read by your console and needs to be formatted:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
 1. Start again from the beginning of [Section I](installing-boot9strap-(mset9-cli)#section-i---prep-work)
 
@@ -281,7 +283,7 @@ You may be missing `SafeB9S.bin` from the root of your SD card, or the file may 
 Alternatively, your SD card may be improperly formatted or partitioned, after removing the trigger file, format it:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
 1. Start again from from [Section II Step 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
@@ -313,7 +315,7 @@ Follow these instructions to remove the trigger file then try Section II again:
 If you continue to have this issue and are sure that you did everything correctly, ensure the trigger file is removed and format your SD card:
 
 1. Copy everything off the SD Card to your PC
-1. Format it ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
+1. Format the SD Card ([Windows](formatting-sd-(windows)), [Linux](formatting-sd-(linux)), [macOS](formatting-sd-(mac)))
 1. Copy everything back
 1. Start again from from [Section II Step 1](installing-boot9strap-(mset9-cli)#section-ii---mset9)
 
